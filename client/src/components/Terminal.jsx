@@ -12,9 +12,7 @@ const projectNames = projects.map((p) => p.title);
 
 export default function Terminal() {
   const [lines, setLines] = useState(() => [
-    `Welcome to ${profile.name}'s terminal.`,
-    `Type 'help' to explore — try 'projects', 'blogs', 'resume'.`,
-    "",
+    '',
   ]);
   const [theme, setTheme] = useState("cyber"); // cyber | matrix
   const [input, setInput] = useState("");
