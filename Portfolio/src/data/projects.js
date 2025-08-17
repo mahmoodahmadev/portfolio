@@ -17,7 +17,6 @@ Features:
     desc: "Distributed subdomain + content discovery.",
     repo: "https://github.com/yourname/reconfury",
     details: `
-ReconFury automates wide recon.
 
 Highlights:
 - Multi-threaded DNS bruteforce
